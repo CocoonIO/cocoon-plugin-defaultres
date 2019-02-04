@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="com.ludei.defaultres.android"
+        version="1.0.1">
+
+    <name>Default resources plugin Android</name>
+    <description>Changes the default resources to the Cocoon.io ones</description>
+    <license>Copyright Ludei</license>
+    <keywords>ludei, cocoon.io, resources</keywords>
+
+    <platform name="android">    
+        <hook type="after_prepare" src="scripts/after_prepare.js" />    
+        
+        <!-- icons -->
+        <resource-file src="res/android/drawable/icon.png" target="res/drawable/icon.png" />
+        <resource-file src="res/android/drawable-hdpi/icon.png" target="res/drawable-hdpi/icon.png" />
+        <resource-file src="res/android/drawable-ldpi/icon.png" target="res/drawable-ldpi/icon.png" />
+        <resource-file src="res/android/drawable-mdpi/icon.png" target="res/drawable-mdpi/icon.png" />
+        <resource-file src="res/android/drawable-xhdpi/icon.png" target="res/drawable-xhdpi/icon.png" />
+        <resource-file src="res/android/mipmap-hdpi/icon.png" target="res/mipmap-hdpi/icon.png" />
+        <resource-file src="res/android/mipmap-ldpi/icon.png" target="res/mipmap-ldpi/icon.png" />
+        <resource-file src="res/android/mipmap-mdpi/icon.png" target="res/mipmap-mdpi/icon.png" />
+        <resource-file src="res/android/mipmap-xhdpi/icon.png" target="res/mipmap-xhdpi/icon.png" />
+
+        <!-- splashes -->
+        <resource-file src="res/android/drawable-land-hdpi/screen.png" target="res/drawable-land-hdpi/screen.png" />
+        <resource-file src="res/android/drawable-land-ldpi/screen.png" target="res/drawable-land-ldpi/screen.png" />
+        <resource-file src="res/android/drawable-land-mdpi/screen.png" target="res/drawable-land-mdpi/screen.png" />
+        <resource-file src="res/android/drawable-land-xhdpi/screen.png" target="res/drawable-land-xhdpi/screen.png" />
+        <resource-file src="res/android/drawable-port-hdpi/screen.png" target="res/drawable-port-hdpi/screen.png" />
+        <resource-file src="res/android/drawable-port-ldpi/screen.png" target="res/drawable-port-ldpi/screen.png" />
+        <resource-file src="res/android/drawable-port-mdpi/screen.png" target="res/drawable-port-mdpi/screen.png" />
+        <resource-file src="res/android/drawable-port-xhdpi/screen.png" target="res/drawable-port-xhdpi/screen.png" />
+    </platform>
+</plugin>

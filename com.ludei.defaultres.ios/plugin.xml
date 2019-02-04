@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="com.ludei.defaultres.ios"
+        version="1.1.1">
+
+    <name>Default resources plugin iOS</name>
+    <description>Changes the default resources to the Cocoon.io ones</description>
+    <license>Copyright Ludei</license>
+    <keywords>ludei, cocoon.io, resources</keywords>
+
+    <platform name="ios">        
+        <hook type="after_plugin_install" src="scripts/after_install.js" />
+    </platform>
+</plugin>
